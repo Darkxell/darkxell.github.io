@@ -100,6 +100,12 @@ body{
 	background-position: center;
 	transition: all .2s ease-in-out;
 }
+@media(max-width:1200px){
+	.pj-item{
+		width: 95.8%;
+	}
+}
+
 
 .pj-item:hover{
 	transform: scale(1.05);
