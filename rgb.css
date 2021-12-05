@@ -58,6 +58,11 @@ https://www.youtube.com/watch?v=NzGugQ-eiy0
         background-position: 0.1em 0.1em;
     }
 }
+@media(max-width:1200px){
+	.rgb-border{
+		display: none;
+	}
+}
 
 .rgbtext {
     animation: rgbtext 2s infinite;
