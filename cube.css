@@ -12,8 +12,8 @@ https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog
 .cube{
 	margin: 0 auto;
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 151px;
+	height: 151px;
 	transform-style: preserve-3d;
 	animation: animatecube 4s linear infinite;
 }
