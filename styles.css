@@ -97,24 +97,22 @@ body{
 }
 
 .pj-item{
-	background: rgb(38, 27, 92);
+	background: rgb(37, 37, 45);
 	width: 47.8%;
 	max-width: 47.8%;
 	height: var(--pj-size);
 	margin: 0 2% 2% 0;
 	float: left;
-	cursor: pointer;
 	overflow: hidden;
 	transition: all .3s ease-in-out;
 	position: relative;
 }
 
-
 .pj-item:hover{
 	height: var(--pj-open);
 	transform: scale(1.15);
 	z-index: 50;
-	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	box-shadow: rgb(12, 22, 32) 0px 20px 30px -10px;
 }
 
 .pj-background{
@@ -125,7 +123,7 @@ body{
 	position: absolute;
 }
 
-@media(max-width:1200px){
+@media(max-width:1550px){
 	.pj-item{
 		width: 95.8%;
 		max-width: 95.8%;
@@ -138,4 +136,13 @@ body{
 	margin-top: 100px;
 	text-align: center;
 	max-width: 100%;
+}
+
+.pj-item article{
+	margin-top: var(--pj-size);
+	padding: 1em;
+}
+
+.pj-item article h4{
+	display: inline-block;
 }
