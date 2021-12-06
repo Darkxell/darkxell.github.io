@@ -146,3 +146,7 @@ body{
 .pj-item article h4{
 	display: inline-block;
 }
+
+.pj-separator{
+	clear: both;
+}
